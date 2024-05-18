@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+        <div class="container">
+                <form action="" id="nfa_dfa" method="post">
+                        <div class="form-input">
+                                <input type="text" id="status" placeholder="Durumlar">
+                        </div>
+                        <div class="form-input">
+                                <input type="text" id="alphabet" placeholder="Alfabe">
+                        </div>
+                        <div class="form-input">
+                                <input type="text" id="transition" placeholder="Geçişler">
+                        </div>
+                        <div class="form-input">
+                                <input type="text" id="first_status" placeholder="Başlangıç Durumu">
+                        </div>
+                        <div class="form-input">
+                                <input type="text" id="accept_status" placeholder="Kabul Durumları">
+                        </div>
+                        <div>
+                                <input type="submit" value="Dönüştür">
+                        </div>
+                </form>
+
+                <div class="output">
+                        <pre id="output"></pre>
+                </div>
+        </div>
+        
+
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
